@@ -1,0 +1,42 @@
+Function Main
+    Declare Integer jumlahAngka
+    Declare Integer angka
+    Declare Integer jumlahPositif
+    Declare Integer jumlahNegatif
+    Declare Integer jumlahGanjil
+    Declare Integer jumlahGenap
+    Declare Integer total
+    Declare Real rataRata
+    Declare Integer i
+
+    Output "Berapa banyak angka yang ingin dimasukkan?"
+    Input jumlahAngka
+    Assign jumlahPositif = 0
+    Assign jumlahNegatif = 0
+    Assign jumlahGanjil = 0
+    Assign jumlahGenap = 0
+    Assign total = 0
+    For i = 1 to jumlahAngka
+        Output "Masukkan angka"
+        Input angka
+        Assign total = total + angka
+        If angka >= 0
+            Assign jumlahPositif = jumlahPositif + 1
+        Else
+            Assign jumlahNegatif = jumlahNegatif + 1
+            Assign angka = abs (angka)
+        End
+        If angka mod 2 = 0
+            Assign jumlahGenap = jumlahGenap + 1
+        Else
+            Assign jumlahGanjil = jumlahGanjil + 1
+        End
+    End
+    Assign rataRata = total / jumlahAngka
+    Output "Jumlah positif = " & jumlahPositif
+    Output "Jumlah negatif = " & jumlahNegatif
+    Output "Jumlah ganjil = " & jumlahGanjil
+    Output "Jumlah genap = " & jumlahGenap
+    Output "Total = " & total
+    Output "Rata-rata = " & rataRata
+End
