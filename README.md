@@ -2,30 +2,30 @@
 
 ## 1. Group Information
 
-**Class:** A/B/C/D  
+**Class:** C  
 **Group:** 1
 
 ### Group Members
 
 | No. | Name | Student ID | Role |
 |---|---|---|---|
-| 1 | Student 1 | XXXXX | Project Coordinator |
-| 2 | Student 2 | XXXXX | Algorithm |
-| 3 | Student 3 | XXXXX | Flowchart |
-| 4 | Student 4 | XXXXX | JavaScript |
-| 5 | Student 5 | XXXXX | Testing & Documentation |
+| 1 | Sulthon Alghifari | 2610312077 | Project Coordinator |
+| 2 | Khalisha Putri Shafa | 2610312105 | Algorithm |
+| 3 | Muhammad Arsyad | 26103122073 | Flowchart |
+| 4 | Sulthon Alghifari | 26103122077 | JavaScript |
+| 5 | bianca eunike priscilla papilaya | 2610312075 | Testing & Documentation |
 
 ---
 
 ## 2. Project Title
 
-Number Guessing Game
+Number Analyzer
 
 ---
 
 ## 3. Project Description
 
-This program is a simple game in which the player must guess a number determined by the computer.
+Program that evaluates an input number or a set of numbers to provide mathematical properties.
 
 ---
 
@@ -47,20 +47,24 @@ This project is designed to apply the following programming concepts:
 
 The program receives:
 
-- The player's guess
-- The number of attempts
+- A number or a set of numbers entered by the user
+- The total count of numbers to be input (if multiple numbers are analyzed)
 
 ---
 
 ## 6. Process
 
-The program compares the player's guess with the target number.
+The program analyzes each input number by checking its mathematical properties:
 
-If the guess is:
+- If the number is greater than 0 → classified as positive
+- If the number is less than 0 → classified as negative
+- If the number is divisible by 2 (remainder 0) → classified as even
+- If the number is not divisible by 2 → classified as odd
 
-- Too high → the program provides a "too high" message
-- Too low → the program provides a "too low" message
-- Correct → the player wins
+For a set of numbers, the program also:
+
+- Accumulates (sums) all the input numbers
+- Calculates the average of the input numbers by dividing the total sum by the number of inputs
 
 ---
 
@@ -68,10 +72,9 @@ If the guess is:
 
 The program displays:
 
-- The result of each guess
-- Hints or feedback
-- The number of remaining attempts
-- The final game status (win/loss)
+- The classification result of each number (positive/negatif,odd/even)
+- The total accumulated sum of all input numbers
+- The average of input numbers
 
 ---
 
