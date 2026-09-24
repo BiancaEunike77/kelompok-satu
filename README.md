@@ -100,11 +100,27 @@ File:
 
 The JavaScript implementation of the program is available in:
 
-`program.js`
+`script.js`
 
 ---
 
-## 11. Testing
+## 11. HTML Implementation
+
+The HTML implementation of the program is available in:
+
+`index.html`
+
+---
+
+## 12. CSS Implementation
+
+The CSS implementation of the program is available in:
+
+`style.css`
+
+---
+
+## 13. Testing
 
 The program is tested using several test scenarios.
 
