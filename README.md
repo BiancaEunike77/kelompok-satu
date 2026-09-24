@@ -15,6 +15,8 @@
 | 4 | Sulthon Alghifari | 26103122077 | JavaScript |
 | 5 | bianca eunike priscilla papilaya | 2610312075 | Testing & Documentation |
 
+Link Demo Project: https://slthnghifari.github.io/Test/
+
 ---
 
 ## 2. Project Title
